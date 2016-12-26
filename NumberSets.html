@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet">
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+
+</head>
+
+<body>
+    <div data-role="page" id="MainPage">
+        <div data-role="header" style="text-align:center;">Number Sets</div>
+        <div role="main" class="ui-content">
+            <button class="ui-btn ui-shadow" onclick="location.href='#NaturalNumbersPage'">Natural Numbers</button>
+            <button class="ui-btn ui-shadow" onclick="location.href='#WholeNumbersPage'">Whole Numbers</button>
+
+            <button class="ui-btn ui-shadow" onclick="location.href='index.html'">Back</button>
+        </div>
+        <div data-role="footer" style="text-align:center;">&copy;2016 Sang Han</div>
+    </div>
+
+    <div data-role="page" id="NaturalNumbersPage">
+        <div data-role="header" style="text-align:center;">
+            Definition: They are simply countable numbers.
+        </div>
+        <div role="main" class="ui-content">
+            <img style="margin-left:15%" src="img/NumberSets/NaturalNumbers.PNG" />
+        </div>
+        <div data-role="footer" style="text-align:center;">
+            <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+        </div>
+    </div>
+
+    <div data-role="page" id="WholeNumbersPage">
+        <div data-role="header" style="text-align:center;">
+            Definition: They are simply natural numbers with the addition of zero.
+        </div>
+        <div role="main" class="ui-content">
+            <img style="margin-left:15%" src="img/NumberSets/WholeNumbers.PNG" />
+        </div>
+        <div data-role="footer" style="text-align:center;">
+            <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+        </div>
+    </div>
+</body>
+
+</html>
