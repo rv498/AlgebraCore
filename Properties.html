@@ -20,6 +20,13 @@
         <div role="main" class="ui-content">
             <button class="ui-btn ui-shadow" onclick="location.href='#ReflexivePage'">Reflexive</button>
             <button class="ui-btn ui-shadow" onclick="location.href='#SymmetricPage'">Symmetric</button>
+            <button class="ui-btn ui-shadow" onclick="location.href='#TransitivePage'">Transitive</button>
+            <button class="ui-btn ui-shadow" onclick="location.href='#CommutativePage'">Commutative</button>
+            <button class="ui-btn ui-shadow" onclick="location.href='#AssociativePage'">Associative</button>
+            <button class="ui-btn ui-shadow" onclick="location.href='#DistributivePage'">Distributive</button>
+            <button class="ui-btn ui-shadow" onclick="location.href='#AdditiveIdentityPage'">Additive Identity</button>
+            <button class="ui-btn ui-shadow" onclick="location.href='#MultiplicativeIdentityPage'">Multiplicative Identity</button>
+
             <button class="ui-btn ui-shadow" onclick="location.href='index.html'">Back</button>
         </div>
         <div data-role="footer" style="text-align:center;">&copy;2016 Sang Han</div>
@@ -42,12 +49,81 @@
             Definition: If first number is equal to second number, then second number is equal to first number.
         </div>
         <div role="main" class="ui-content">
-            <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/Symmetric_example.PNG" />
+            <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/symmetric_example.PNG" />
         </div>
         <div data-role="footer" style="text-align:center;">
             <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
         </div>
     </div>
+
+    <div data-role="page" id="TransitivePage">
+        <div data-role="header" style="text-align:center;">
+            Definition: If first number is equal to second number and second number is equal to third number, then first number is equal to third number.
+        </div>
+        <div role="main" class="ui-content">
+            <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/transitive_example.PNG" />
+        </div>
+        <div data-role="footer" style="text-align:center;">
+            <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+        </div>
+    </div>
+
+    <div data-role="page" id="CommutativePage">
+        <div data-role="header" style="text-align:center;">
+            Definition: When adding or multiplying, order of numbers is irrelevant.
+        </div>
+        <div role="main" class="ui-content">
+            <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/commutative_example.PNG" />
+        </div>
+        <div data-role="footer" style="text-align:center;">
+            <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+        </div>
+    </div>
+
+    <div data-role="page" id="AssociativePage">
+        <div data-role="header" style="text-align:center;">
+            Definition: When adding or multiplying, the way they are grouped together makes no difference in the outcome.
+        </div>
+        <div role="main" class="ui-content">
+            <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/associative_example.PNG" />
+        </div>
+        <div data-role="footer" style="text-align:center;">
+            <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+        </div>
+    </div>
+
+    <div data-role="page" id="DistributivePage">
+        <div data-role="header" style="text-align:center;">
+            Definition: a number outside of grouped terms will multiply with each term in that group that are linked by addition or subtraction symbols.</div>
+        <div role="main" class="ui-content">
+            <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/distributive_example.PNG" />
+        </div>
+        <div data-role="footer" style="text-align:center;">
+            <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+        </div>
+    </div>
+
+    <div data-role="page" id="AdditiveIdentityPage">
+        <div data-role="header" style="text-align:center;">
+            Definition: When zero is added to any number, the outcome is that number unchanged.
+            <div role="main" class="ui-content">
+                <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/additive_identity_property.PNG" />
+            </div>
+            <div data-role="footer" style="text-align:center;">
+                <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+            </div>
+        </div>
+
+        <div data-role="page" id="MultiplicativeIdentityPage">
+            <div data-role="header" style="text-align:center;">
+                Definition: When number one gets multiplied with the term, the outcome is just that term unchanged.
+                <div role="main" class="ui-content">
+                    <img style="width:90%; margin-left:5%;" src="img/PropertiesImages/multiplicative_identity_property.PNG" />
+                </div>
+                <div data-role="footer" style="text-align:center;">
+                    <button class="ui-btn ui-shadow" onclick="location.href='#MainPage'" ;>Back</button>
+                </div>
+            </div>
 </body>
 
 </html>
